@@ -1,0 +1,48 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <!-- Style cho TextView "karma" -->
+    <!-- res/values/styles.xml -->
+    <style name="KarmaTextStyle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+
+    <!-- Style cho TextView "Sign in with your account" -->
+    <style name="SignInTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <!-- Style cho EditText -->
+    <style name="EditTextStyle">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+    <!-- Style cho CheckBox -->
+    <style name="RememberMeCheckboxStyle">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+
+    <!-- Style cho Button -->
+    <style name="SignInButtonStyle">
+        <item name="android:backgroundTint">?android:attr/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+    <!-- Style cho TextView "Still don't have account? Sign Up" -->
+    <style name="SignUpTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+</resources>
